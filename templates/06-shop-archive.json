@@ -1,0 +1,280 @@
+{
+  "content": [
+    {
+      "id": "frn_shop_page_wrap",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1240 },
+        "flex_direction": "column",
+        "flex_gap": { "unit": "px", "size": 32 },
+        "padding": { "unit": "px", "top": "24", "right": "20", "bottom": "60", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "frn_shop_banner",
+          "settings": {
+            "content_width": "full",
+            "min_height": { "unit": "px", "size": 240 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "flex-start",
+            "background_background": "classic",
+            "background_color": "#E8D5C3",
+            "background_position": "center left",
+            "background_size": "cover",
+            "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+            "padding": { "unit": "px", "top": "40", "right": "48", "bottom": "40", "left": "48", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "frn_shop_title",
+              "settings": {
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"arc_t\" name=\"archive-title\" settings=\"%7B%22include_context%22%3A%22%22%7D\"]"
+                },
+                "header_size": "h1",
+                "title_color": "#29221E",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 38 },
+                "typography_font_size_mobile": { "unit": "px", "size": 28 },
+                "typography_font_weight": "800"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "theme-archive-title",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_shop_breadcrumb",
+              "settings": {
+                "text_color": "#744329",
+                "link_color": "#744329",
+                "link_color_hover": "#F47721",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 14 }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "woocommerce-breadcrumb",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "frn_shop_main_columns",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "flex-start",
+            "flex_gap": { "unit": "px", "size": 28 }
+          },
+          "elements": [
+            {
+              "id": "frn_shop_sidebar",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 26 },
+                "width_tablet": { "unit": "%", "size": 32 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 20 },
+                "css_classes": "furnova-shop-sidebar"
+              },
+              "elements": [
+                {
+                  "id": "frn_filter_cat_box",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "size": 12 },
+                    "background_background": "classic",
+                    "background_color": "#FFF9F3",
+                    "border_radius": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+                    "padding": { "unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "frn_f_cat_title",
+                      "settings": { "title": "دسته‌بندی‌ها", "header_size": "h4", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 17 }, "typography_font_weight": "700" },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "frn_f_cat_sc",
+                      "settings": { "shortcode": "[product_categories hierarchical=\"1\" show_count=\"0\"]" },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "shortcode",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "frn_filter_price_box",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "size": 12 },
+                    "background_background": "classic",
+                    "background_color": "#FFF9F3",
+                    "border_radius": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+                    "padding": { "unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "frn_f_price_title",
+                      "settings": { "title": "فیلتر قیمت", "header_size": "h4", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 17 }, "typography_font_weight": "700" },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "frn_f_price_widget",
+                      "settings": { "wp": {} },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "wp-widget-woocommerce_price_filter",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "frn_filter_color_box",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "size": 12 },
+                    "background_background": "classic",
+                    "background_color": "#FFF9F3",
+                    "border_radius": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+                    "padding": { "unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "frn_f_color_title",
+                      "settings": { "title": "رنگ و وضعیت موجودی", "header_size": "h4", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 17 }, "typography_font_weight": "700" },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "heading",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "frn_reset_filters_btn",
+                      "settings": {
+                        "text": "حذف فیلترها",
+                        "align": "justify",
+                        "link": { "url": "/shop/" },
+                        "background_color": "#E8D5C3",
+                        "button_text_color": "#29221E",
+                        "border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true },
+                        "typography_typography": "custom",
+                        "typography_font_size": { "unit": "px", "size": 14 },
+                        "typography_font_weight": "600"
+                      },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "button",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_shop_products_col",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 74 },
+                "width_tablet": { "unit": "%", "size": 68 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 24 }
+              },
+              "elements": [
+                {
+                  "id": "frn_shop_topbar",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_justify_content": "space-between",
+                    "flex_align_items": "center",
+                    "background_background": "classic",
+                    "background_color": "#FFF9F3",
+                    "border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true },
+                    "padding": { "unit": "px", "top": "10", "right": "22", "bottom": "10", "left": "14", "isLinked": false },
+                    "css_classes": "furnova-shop-topbar"
+                  },
+                  "elements": [
+                    {
+                      "id": "frn_result_count",
+                      "settings": { "shortcode": "[furnova_shop_result_count]" },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "shortcode",
+                      "elType": "widget"
+                    },
+                    {
+                      "id": "frn_catalog_ordering",
+                      "settings": { "shortcode": "[furnova_shop_ordering]" },
+                      "elements": [],
+                      "isInner": false,
+                      "widgetType": "shortcode",
+                      "elType": "widget"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                },
+                {
+                  "id": "frn_shop_loop_grid",
+                  "settings": {
+                    "columns": "3",
+                    "columns_tablet": "2",
+                    "columns_mobile": "1",
+                    "posts_per_page": 9,
+                    "post_type": "current_query",
+                    "column_gap": { "unit": "px", "size": 22 },
+                    "row_gap": { "unit": "px", "size": 22 },
+                    "pagination_type": "numbers",
+                    "pagination_page_limit": "5",
+                    "pagination_align": "center",
+                    "pagination_color": "#29221E",
+                    "pagination_active_color": "#FFF9F3",
+                    "pagination_active_bg_color": "#F47721",
+                    "css_classes": "furnova-shop-grid"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "loop-grid",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Furnova-Shop-Archive",
+  "type": "product-archive"
+}

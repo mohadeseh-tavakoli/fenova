@@ -1,0 +1,383 @@
+/* =========================================================
+   1. تنظیمات پایه، پالت رنگی و تایپوگرافی فرنووا
+========================================================= */
+body {
+    background-color: #F8EFE7;
+    color: #29221E;
+    font-family: 'Vazirmatn', sans-serif;
+    font-feature-settings: "ss01";
+    overflow-x: hidden;
+}
+
+/* =========================================================
+   2. هدر چسبان شیشه‌ای و باکس جستجوی کپسولی
+========================================================= */
+.furnova-sticky-header.elementor-sticky--effects {
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 10px 30px -10px rgba(41, 34, 30, 0.08);
+    border-bottom: 1px solid rgba(232, 213, 195, 0.6);
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    transition: all 0.35s ease;
+}
+
+.furnova-hdr-search .elementor-search-form__container {
+    border-radius: 50px !important;
+    border: 1px solid #E8D5C3;
+    overflow: hidden;
+    padding: 0 8px;
+}
+
+.furnova-hdr-search input[type="search"]::placeholder {
+    color: #744329;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
+/* =========================================================
+   3. دکمه‌های کپسولی اختصاصی با آیکون فلش دایره‌ای
+========================================================= */
+.furnova-pill-btn .elementor-button {
+    background-color: #F47721 !important;
+    color: #FFF9F3 !important;
+    border-radius: 50px !important;
+    padding: 10px 24px 10px 10px !important;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 10px 25px -5px rgba(244, 119, 33, 0.35);
+}
+
+.furnova-pill-btn .elementor-button:hover {
+    background-color: #D95B0B !important;
+    transform: translateY(-2px);
+}
+
+.furnova-pill-btn .elementor-button-icon {
+    background-color: rgba(255, 255, 255, 0.22);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.furnova-pill-btn .elementor-button:hover .elementor-button-icon {
+    transform: translateX(-4px);
+}
+
+/* =========================================================
+   4. کارت‌های دسته‌بندی شناور زیر هیرو
+========================================================= */
+.furnova-cat-card {
+    background-color: #F8EFE7;
+    border-radius: 22px;
+    padding: 16px;
+    text-align: center;
+    transition: all 0.35s ease;
+    cursor: pointer;
+}
+
+.furnova-cat-card:hover,
+.furnova-cat-card.active {
+    background-color: #F47721;
+}
+
+.furnova-cat-card:hover .elementor-heading-title,
+.furnova-cat-card.active .elementor-heading-title {
+    color: #FFF9F3 !important;
+}
+
+/* =========================================================
+   5. کارت محصول اختصاصی فرنووا (Loop Item)
+========================================================= */
+.furnova-product-card {
+    background-color: #FFF9F3;
+    border-radius: 26px;
+    padding: 14px;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border: 1px solid rgba(232, 213, 195, 0.5);
+    position: relative;
+}
+
+.furnova-product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -15px rgba(41, 34, 30, 0.08);
+    border-color: #E8D5C3;
+}
+
+.furnova-card-image-wrap {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    background-color: #F8EFE7;
+}
+
+.furnova-card-image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.45s ease, transform 0.6s ease;
+}
+
+.furnova-secondary-img {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    z-index: 2;
+}
+
+.furnova-product-card:hover .furnova-secondary-img {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.furnova-color-swatches {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 8px 0;
+}
+
+.furnova-swatch-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1.5px solid #FFF9F3;
+    box-shadow: 0 0 0 1px #E8D5C3;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.furnova-swatch-dot:hover {
+    transform: scale(1.25);
+}
+
+.furnova-card-cart-btn .add_to_cart_button {
+    width: 42px !important;
+    height: 42px !important;
+    padding: 0 !important;
+    border-radius: 14px !important;
+    background-color: #F47721 !important;
+    color: #FFF9F3 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.furnova-card-cart-btn .add_to_cart_button:hover {
+    background-color: #29221E !important;
+    transform: scale(1.06);
+}
+
+/* =========================================================
+   6. صفحه فروشگاه، فیلترها و صفحه‌بندی دایره‌ای
+========================================================= */
+.furnova-shop-sidebar .product-categories {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.furnova-shop-sidebar .product-categories li {
+    padding: 7px 0;
+    border-bottom: 1px dashed #E8D5C3;
+}
+
+.furnova-shop-sidebar .product-categories li:last-child {
+    border-bottom: none;
+}
+
+.furnova-shop-sidebar .product-categories li a {
+    color: #29221E;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.25s ease;
+}
+
+.furnova-shop-sidebar .product-categories li a::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #F47721;
+    display: inline-block;
+}
+
+.furnova-shop-sidebar .product-categories li a:hover {
+    color: #F47721;
+}
+
+.furnova-shop-sidebar .widget_price_filter .ui-slider .ui-slider-range,
+.furnova-shop-sidebar .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #F47721 !important;
+}
+
+.furnova-shop-sidebar .widget_price_filter .price_slider_wrapper .ui-widget-content {
+    background-color: #E8D5C3 !important;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.furnova-shop-sidebar .widget_price_filter .button {
+    background-color: #F47721 !important;
+    color: #FFF9F3 !important;
+    border-radius: 50px !important;
+    font-size: 13px;
+    padding: 6px 18px;
+}
+
+.furnova-shop-topbar .woocommerce-result-count {
+    margin: 0 !important;
+    font-size: 14px;
+    color: #744329;
+}
+
+.furnova-shop-topbar .woocommerce-ordering {
+    margin: 0 !important;
+}
+
+.furnova-shop-topbar .woocommerce-ordering select {
+    background-color: #F8EFE7;
+    color: #29221E;
+    border: 1px solid #E8D5C3;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+}
+
+.furnova-shop-grid .elementor-pagination .page-numbers {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #FFF9F3;
+    color: #29221E;
+    margin: 0 4px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.furnova-shop-grid .elementor-pagination .page-numbers.current,
+.furnova-shop-grid .elementor-pagination .page-numbers:hover {
+    background-color: #F47721 !important;
+    color: #FFF9F3 !important;
+}
+
+/* =========================================================
+   7. صفحه تک‌محصول (گالری عمودی، افزودن به سبد و تب‌ها)
+========================================================= */
+@media (min-width: 768px) {
+    .furnova-vertical-gallery .woocommerce-product-gallery {
+        display: flex !important;
+        flex-direction: row-reverse;
+        gap: 14px;
+        align-items: flex-start;
+    }
+
+    .furnova-vertical-gallery .flex-viewport {
+        width: 82% !important;
+        border-radius: 22px;
+        overflow: hidden;
+    }
+
+    .furnova-vertical-gallery .flex-control-thumbs {
+        width: 18% !important;
+        display: flex !important;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 !important;
+    }
+
+    .furnova-vertical-gallery .flex-control-thumbs li {
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+    }
+
+    .furnova-vertical-gallery .flex-control-thumbs li img {
+        border-radius: 14px;
+        border: 2px solid transparent;
+        transition: all 0.25s ease;
+    }
+
+    .furnova-vertical-gallery .flex-control-thumbs li img.flex-active {
+        border-color: #F47721;
+        opacity: 1 !important;
+    }
+}
+
+.furnova-single-atc form.cart {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.furnova-single-atc .quantity input.qty {
+    background-color: #FFF9F3;
+    border: 1.5px solid #E8D5C3;
+    border-radius: 50px;
+    height: 48px;
+    width: 80px;
+    font-weight: 700;
+    color: #29221E;
+}
+
+.furnova-single-atc button.single_add_to_cart_button {
+    height: 48px;
+    padding: 0 32px !important;
+    border-radius: 50px !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    box-shadow: 0 10px 25px -5px rgba(244, 119, 33, 0.35);
+    transition: all 0.3s ease;
+}
+
+.furnova-single-atc button.single_add_to_cart_button:hover {
+    transform: translateY(-2px);
+}
+
+.furnova-product-tabs .woocommerce-tabs ul.tabs {
+    border-bottom: 1px solid #E8D5C3 !important;
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+    display: flex;
+    gap: 24px;
+}
+
+.furnova-product-tabs .woocommerce-tabs ul.tabs li {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 0 12px 0 !important;
+    margin: 0 !important;
+}
+
+.furnova-product-tabs .woocommerce-tabs ul.tabs li::before,
+.furnova-product-tabs .woocommerce-tabs ul.tabs li::after {
+    display: none !important;
+}
+
+.furnova-product-tabs .woocommerce-tabs ul.tabs li.active {
+    border-bottom: 3px solid #F47721 !important;
+}
+
+.furnova-product-tabs .woocommerce-tabs ul.tabs li.active a {
+    color: #F47721 !important;
+    font-weight: 700;
+}

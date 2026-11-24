@@ -1,0 +1,470 @@
+{
+  "content": [
+    {
+      "id": "frn_about_page_block",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1240 },
+        "flex_direction": "column",
+        "flex_gap": { "unit": "px", "size": 36 },
+        "padding": { "unit": "px", "top": "24", "right": "20", "bottom": "60", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "frn_ab_banner",
+          "settings": {
+            "min_height": { "unit": "px", "size": 220 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "flex-start",
+            "background_background": "classic",
+            "background_color": "#E8D5C3",
+            "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+            "padding": { "unit": "px", "top": "36", "right": "44", "bottom": "36", "left": "44", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "frn_ab_h1",
+              "settings": { "title": "درباره ما", "header_size": "h1", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 36 }, "typography_font_weight": "800" },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_ab_sub",
+              "settings": { "editor": "<p>داستان فرنووا؛ از ایده معماری تا واقعیت خانه شما</p>", "text_color": "#744329" },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "frn_ab_story_row",
+          "settings": {
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 36 }
+          },
+          "elements": [
+            {
+              "id": "frn_ab_story_text",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 52 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 14 }
+              },
+              "elements": [
+                {
+                  "id": "frn_ab_h2",
+                  "settings": { "title": "فرنووا، همراه خانه‌های زیبا", "header_size": "h2", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 30 }, "typography_font_weight": "800" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_ab_p",
+                  "settings": {
+                    "editor": "<p>ما در فرنووا باور داریم که مبلمان، فقط یک وسیله نیست؛ بلکه بخشی از زندگی شماست. با تکیه بر طراحی خلاقانه، کیفیت بی‌نظیر متریال و خدمات حرفه‌ای در کنار شما هستیم تا خانه‌ای گرم‌تر و زیباتر بسازید.</p>",
+                    "text_color": "#744329",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 15 },
+                    "typography_line_height": { "unit": "em", "size": 1.9 }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_ab_story_img",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 44 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "min_height": { "unit": "px", "size": 340 },
+                "background_background": "classic",
+                "background_color": "#FFF9F3",
+                "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true }
+              },
+              "elements": [],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "frn_services_page_block",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1240 },
+        "flex_direction": "column",
+        "flex_gap": { "unit": "px", "size": 36 },
+        "padding": { "unit": "px", "top": "24", "right": "20", "bottom": "60", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "frn_srv_banner",
+          "settings": {
+            "min_height": { "unit": "px", "size": 220 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "flex-start",
+            "background_background": "classic",
+            "background_color": "#E8D5C3",
+            "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+            "padding": { "unit": "px", "top": "36", "right": "44", "bottom": "36", "left": "44", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "frn_srv_h1",
+              "settings": { "title": "خدمات ما", "header_size": "h1", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 36 }, "typography_font_weight": "800" },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_srv_sub",
+              "settings": { "editor": "<p>تجربه‌ای متفاوت و مطمئن از خرید مبلمان</p>", "text_color": "#744329" },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "frn_srv_grid",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "space-between",
+            "flex_gap": { "unit": "px", "size": 22 }
+          },
+          "elements": [
+            {
+              "id": "frn_srv_1",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 31.5 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "background_background": "classic",
+                "background_color": "#FFF9F3",
+                "border_radius": { "unit": "px", "top": "26", "right": "26", "bottom": "26", "left": "26", "isLinked": true },
+                "padding": { "unit": "px", "top": "30", "right": "22", "bottom": "30", "left": "22", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "frn_s1_i",
+                  "settings": { "selected_icon": { "value": "fas fa-couch", "library": "fa-solid" }, "primary_color": "#F47721", "size": { "unit": "px", "size": 28 } },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "icon",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_s1_t",
+                  "settings": { "title": "مشاوره تخصصی دکوراسیون", "align": "center", "header_size": "h3", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 17 }, "typography_font_weight": "700" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_s1_d",
+                  "settings": { "editor": "<p style=\"text-align:center;\">انتخاب بهترین چیدمان و رنگ‌بندی با راهنمایی کارشناسان معماری داخلی ما</p>", "text_color": "#744329" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_srv_2",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 31.5 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "background_background": "classic",
+                "background_color": "#FFF9F3",
+                "border_radius": { "unit": "px", "top": "26", "right": "26", "bottom": "26", "left": "26", "isLinked": true },
+                "padding": { "unit": "px", "top": "30", "right": "22", "bottom": "30", "left": "22", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "frn_s2_i",
+                  "settings": { "selected_icon": { "value": "fas fa-truck", "library": "fa-solid" }, "primary_color": "#F47721", "size": { "unit": "px", "size": 28 } },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "icon",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_s2_t",
+                  "settings": { "title": "ارسال سریع و مطمئن", "align": "center", "header_size": "h3", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 17 }, "typography_font_weight": "700" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_s2_d",
+                  "settings": { "editor": "<p style=\"text-align:center;\">بسته‌بندی استاندارد چندلایه و ارسال ایمن به سراسر کشور</p>", "text_color": "#744329" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_srv_3",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 31.5 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "background_background": "classic",
+                "background_color": "#FFF9F3",
+                "border_radius": { "unit": "px", "top": "26", "right": "26", "bottom": "26", "left": "26", "isLinked": true },
+                "padding": { "unit": "px", "top": "30", "right": "22", "bottom": "30", "left": "22", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "frn_s3_i",
+                  "settings": { "selected_icon": { "value": "fas fa-store", "library": "fa-solid" }, "primary_color": "#F47721", "size": { "unit": "px", "size": 28 } },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "icon",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_s3_t",
+                  "settings": { "title": "امکان بازدید حضوری از شوروم", "align": "center", "header_size": "h3", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 17 }, "typography_font_weight": "700" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_s3_d",
+                  "settings": { "editor": "<p style=\"text-align:center;\">بررسی نزدیک کیفیت متریال، نشیمن و بافت پارچه‌ها در شوروم فرنووا</p>", "text_color": "#744329" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "frn_contact_page_block",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1240 },
+        "flex_direction": "column",
+        "flex_gap": { "unit": "px", "size": 36 },
+        "padding": { "unit": "px", "top": "24", "right": "20", "bottom": "60", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "frn_cnt_banner",
+          "settings": {
+            "min_height": { "unit": "px", "size": 220 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "flex-start",
+            "background_background": "classic",
+            "background_color": "#E8D5C3",
+            "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+            "padding": { "unit": "px", "top": "36", "right": "44", "bottom": "36", "left": "44", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "frn_cnt_h1",
+              "settings": { "title": "تماس با ما", "header_size": "h1", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 36 }, "typography_font_weight": "800" },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_cnt_sub",
+              "settings": { "editor": "<p>در ارتباط باشید؛ کارشناسان فرنووا پاسخگوی شما هستند</p>", "text_color": "#744329" },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "frn_cnt_cols",
+          "settings": {
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "space-between",
+            "flex_gap": { "unit": "px", "size": 30 }
+          },
+          "elements": [
+            {
+              "id": "frn_cnt_info_col",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 42 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 18 },
+                "background_background": "classic",
+                "background_color": "#FFF9F3",
+                "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "padding": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true }
+              },
+              "elements": [
+                {
+                  "id": "frn_ci_h3",
+                  "settings": { "title": "اطلاعات تماس شوروم", "header_size": "h3", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 22 }, "typography_font_weight": "800" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_ci_list",
+                  "settings": {
+                    "icon_list": [
+                      { "text": "۰۲۱-۱۲۳۴۵۶۷۸", "selected_icon": { "value": "fas fa-phone-alt", "library": "fa-solid" } },
+                      { "text": "info@furnova.ir", "selected_icon": { "value": "fas fa-envelope", "library": "fa-solid" } },
+                      { "text": "تهران، خیابان ولیعصر، پلاک ۱۲۴", "selected_icon": { "value": "fas fa-map-marker-alt", "library": "fa-solid" } }
+                    ],
+                    "icon_color": "#F47721",
+                    "text_color": "#29221E",
+                    "space_between": { "unit": "px", "size": 14 }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "icon-list",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_ci_map",
+                  "settings": { "address": "Tehran, Valiasr Street", "zoom": { "unit": "px", "size": 14 }, "height": { "unit": "px", "size": 190 } },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "google_maps",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_cnt_form_col",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 55 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 18 },
+                "background_background": "classic",
+                "background_color": "#FFF9F3",
+                "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "padding": { "unit": "px", "top": "30", "right": "32", "bottom": "30", "left": "32", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "frn_cf_h3",
+                  "settings": { "title": "فرم تماس و درخواست مشاوره", "header_size": "h3", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 22 }, "typography_font_weight": "800" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_cf_form",
+                  "settings": {
+                    "form_name": "Furnova Contact",
+                    "form_fields": [
+                      { "custom_id": "name", "field_type": "text", "placeholder": "نام و نام خانوادگی", "required": "true" },
+                      { "custom_id": "phone", "field_type": "tel", "placeholder": "شماره موبایل", "required": "true" },
+                      { "custom_id": "message", "field_type": "textarea", "placeholder": "پیام یا درخواست مشاوره شما..." }
+                    ],
+                    "button_text": "ارسال پیام",
+                    "show_labels": "",
+                    "field_background_color": "#F8EFE7",
+                    "field_text_color": "#29221E",
+                    "field_border_color": "#E8D5C3",
+                    "field_border_radius": { "unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": true },
+                    "button_background_color": "#F47721",
+                    "button_text_color": "#FFF9F3",
+                    "button_border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "form",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Furnova-Inner-Pages-Bundle",
+  "type": "section"
+}

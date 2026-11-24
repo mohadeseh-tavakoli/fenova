@@ -1,0 +1,226 @@
+{
+  "content": [
+    {
+      "id": "frn_header_main",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "rgba(255, 249, 243, 0.90)",
+        "padding": { "unit": "px", "top": "14", "right": "5%", "bottom": "14", "left": "5%", "isLinked": false },
+        "sticky": "top",
+        "sticky_on": [ "desktop", "tablet", "mobile" ],
+        "sticky_offset": 0,
+        "sticky_effects_offset": 80,
+        "css_classes": "furnova-sticky-header",
+        "z_index": 999
+      },
+      "elements": [
+        {
+          "id": "frn_hdr_logo_col",
+          "settings": {
+            "content_width": "full",
+            "width": { "unit": "%", "size": 20 },
+            "width_mobile": { "unit": "%", "size": 45 },
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 10 }
+          },
+          "elements": [
+            {
+              "id": "frn_hdr_logo_img",
+              "settings": {
+                "selected_icon": { "value": "fas fa-couch", "library": "fa-solid" },
+                "primary_color": "#F47721",
+                "size": { "unit": "px", "size": 28 }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "icon",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_hdr_brand_wrap",
+              "settings": { "flex_direction": "column", "flex_gap": { "unit": "px", "size": 0 } },
+              "elements": [
+                {
+                  "id": "frn_hdr_title",
+                  "settings": {
+                    "title": "فرنووا",
+                    "header_size": "div",
+                    "title_color": "#29221E",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 22 },
+                    "typography_font_weight": "800"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_hdr_tagline",
+                  "settings": {
+                    "title": "هنر زندگی در خانه",
+                    "header_size": "span",
+                    "title_color": "#744329",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 10 },
+                    "typography_font_weight": "500"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "frn_hdr_menu_col",
+          "settings": {
+            "content_width": "full",
+            "width": { "unit": "%", "size": 45 },
+            "width_mobile": { "unit": "%", "size": 15 },
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "frn_hdr_nav",
+              "settings": {
+                "menu": "main-menu",
+                "layout": "horizontal",
+                "align_items": "center",
+                "pointer": "underline",
+                "animation_line": "fade",
+                "color_menu_item": "#29221E",
+                "color_menu_item_hover": "#F47721",
+                "color_menu_item_active": "#F47721",
+                "pointer_color_menu_item_hover": "#F47721",
+                "pointer_color_menu_item_active": "#F47721",
+                "pointer_width": { "unit": "px", "size": 2 },
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "600",
+                "dropdown": "tablet",
+                "full_width_dropdown": "yes",
+                "background_color_dropdown": "#FFF9F3",
+                "color_dropdown_item": "#29221E",
+                "toggle_color": "#29221E",
+                "toggle_background_color": "#F8EFE7",
+                "border_radius_dropdown": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "nav-menu",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "frn_hdr_tools_col",
+          "settings": {
+            "content_width": "full",
+            "width": { "unit": "%", "size": 35 },
+            "width_mobile": { "unit": "%", "size": 40 },
+            "flex_direction": "row",
+            "flex_justify_content": "flex-end",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 10 }
+          },
+          "elements": [
+            {
+              "id": "frn_hdr_search",
+              "settings": {
+                "skin": "classic",
+                "placeholder": "جستجو در محصولات...",
+                "size": { "unit": "px", "size": 40 },
+                "input_background_color": "#F8EFE7",
+                "input_text_color": "#29221E",
+                "button_background_color": "#F8EFE7",
+                "button_text_color": "#744329",
+                "border_radius": { "unit": "px", "size": 50 },
+                "hide_mobile": "hidden-mobile",
+                "css_classes": "furnova-hdr-search"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "search-form",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_hdr_account",
+              "settings": {
+                "selected_icon": { "value": "far fa-user", "library": "fa-regular" },
+                "link": { "url": "/my-account/" },
+                "primary_color": "#29221E",
+                "secondary_color": "#F8EFE7",
+                "view": "stacked",
+                "size": { "unit": "px", "size": 16 },
+                "icon_padding": { "unit": "px", "size": 11 },
+                "border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "icon",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_hdr_wishlist",
+              "settings": {
+                "selected_icon": { "value": "far fa-heart", "library": "fa-regular" },
+                "link": { "url": "/wishlist/" },
+                "primary_color": "#29221E",
+                "secondary_color": "#F8EFE7",
+                "view": "stacked",
+                "size": { "unit": "px", "size": 16 },
+                "icon_padding": { "unit": "px", "size": 11 },
+                "border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "icon",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_hdr_cart",
+              "settings": {
+                "icon": "bag-light",
+                "items_indicator": "bubble",
+                "toggle_button_background_color": "#F8EFE7",
+                "toggle_button_icon_color": "#29221E",
+                "toggle_button_badge_background_color": "#F47721",
+                "toggle_button_badge_text_color": "#FFF9F3",
+                "toggle_button_border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true },
+                "toggle_button_padding": { "unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10", "isLinked": true }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "woocommerce-menu-cart",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Furnova-Sticky-Header",
+  "type": "header"
+}

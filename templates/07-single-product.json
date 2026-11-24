@@ -1,0 +1,383 @@
+{
+  "content": [
+    {
+      "id": "frn_single_prod_root",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1240 },
+        "flex_direction": "column",
+        "flex_gap": { "unit": "px", "size": 40 },
+        "padding": { "unit": "px", "top": "30", "right": "20", "bottom": "70", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "frn_sp_top_grid",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "flex-start",
+            "flex_gap": { "unit": "px", "size": 36 }
+          },
+          "elements": [
+            {
+              "id": "frn_sp_info_col",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 46 },
+                "width_tablet": { "unit": "%", "size": 50 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 16 }
+              },
+              "elements": [
+                {
+                  "id": "frn_sp_breadcrumb",
+                  "settings": { "text_color": "#744329", "link_color": "#744329", "link_color_hover": "#F47721", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 13 } },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "woocommerce-breadcrumb",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_sp_title",
+                  "settings": { "header_size": "h1", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 34 }, "typography_font_size_mobile": { "unit": "px", "size": 26 }, "typography_font_weight": "800" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "woocommerce-product-title",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_sp_rating",
+                  "settings": { "star_color": "#F47721", "empty_star_color": "#E8D5C3", "link_color": "#744329", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 13 } },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "woocommerce-product-rating",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_sp_price",
+                  "settings": { "price_color": "#F47721", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 28 }, "typography_font_weight": "800", "sale_price_color": "#744329" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "woocommerce-product-price",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_sp_short_desc",
+                  "settings": { "text_color": "#744329", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 15 }, "typography_line_height": { "unit": "em", "size": 1.8 } },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "woocommerce-product-short-description",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_sp_add_to_cart",
+                  "settings": {
+                    "button_background_color": "#F47721",
+                    "button_text_color": "#FFF9F3",
+                    "button_background_color_hover": "#D95B0B",
+                    "button_border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true },
+                    "quantity_bg_color": "#FFF9F3",
+                    "quantity_border_color": "#E8D5C3",
+                    "quantity_border_radius": { "unit": "px", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true },
+                    "css_classes": "furnova-single-atc"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "woocommerce-product-add-to-cart",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_sp_trust_badges",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "flex_justify_content": "space-between",
+                    "flex_gap": { "unit": "px", "size": 12 },
+                    "margin": { "unit": "px", "top": "12", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "frn_sp_tb_1",
+                      "settings": {
+                        "content_width": "full",
+                        "width": { "unit": "%", "size": 31 },
+                        "flex_direction": "column",
+                        "flex_align_items": "center",
+                        "flex_gap": { "unit": "px", "size": 6 },
+                        "background_background": "classic",
+                        "background_color": "#FFF9F3",
+                        "border_radius": { "unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": true },
+                        "padding": { "unit": "px", "top": "14", "right": "10", "bottom": "14", "left": "10", "isLinked": false }
+                      },
+                      "elements": [
+                        {
+                          "id": "frn_sp_tb1_i",
+                          "settings": { "selected_icon": { "value": "fas fa-shield-alt", "library": "fa-solid" }, "primary_color": "#F47721", "size": { "unit": "px", "size": 20 } },
+                          "elements": [],
+                          "isInner": false,
+                          "widgetType": "icon",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "frn_sp_tb1_t",
+                          "settings": { "title": "ضمانت اصالت کالا", "align": "center", "header_size": "span", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 12 }, "typography_font_weight": "600" },
+                          "elements": [],
+                          "isInner": false,
+                          "widgetType": "heading",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    },
+                    {
+                      "id": "frn_sp_tb_2",
+                      "settings": {
+                        "content_width": "full",
+                        "width": { "unit": "%", "size": 31 },
+                        "flex_direction": "column",
+                        "flex_align_items": "center",
+                        "flex_gap": { "unit": "px", "size": 6 },
+                        "background_background": "classic",
+                        "background_color": "#FFF9F3",
+                        "border_radius": { "unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": true },
+                        "padding": { "unit": "px", "top": "14", "right": "10", "bottom": "14", "left": "10", "isLinked": false }
+                      },
+                      "elements": [
+                        {
+                          "id": "frn_sp_tb2_i",
+                          "settings": { "selected_icon": { "value": "fas fa-truck", "library": "fa-solid" }, "primary_color": "#F47721", "size": { "unit": "px", "size": 20 } },
+                          "elements": [],
+                          "isInner": false,
+                          "widgetType": "icon",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "frn_sp_tb2_t",
+                          "settings": { "title": "تحویل و نصب رایگان", "align": "center", "header_size": "span", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 12 }, "typography_font_weight": "600" },
+                          "elements": [],
+                          "isInner": false,
+                          "widgetType": "heading",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    },
+                    {
+                      "id": "frn_sp_tb_3",
+                      "settings": {
+                        "content_width": "full",
+                        "width": { "unit": "%", "size": 31 },
+                        "flex_direction": "column",
+                        "flex_align_items": "center",
+                        "flex_gap": { "unit": "px", "size": 6 },
+                        "background_background": "classic",
+                        "background_color": "#FFF9F3",
+                        "border_radius": { "unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": true },
+                        "padding": { "unit": "px", "top": "14", "right": "10", "bottom": "14", "left": "10", "isLinked": false }
+                      },
+                      "elements": [
+                        {
+                          "id": "frn_sp_tb3_i",
+                          "settings": { "selected_icon": { "value": "fas fa-undo-alt", "library": "fa-solid" }, "primary_color": "#F47721", "size": { "unit": "px", "size": 20 } },
+                          "elements": [],
+                          "isInner": false,
+                          "widgetType": "icon",
+                          "elType": "widget"
+                        },
+                        {
+                          "id": "frn_sp_tb3_t",
+                          "settings": { "title": "۷ روز ضمانت بازگشت", "align": "center", "header_size": "span", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 12 }, "typography_font_weight": "600" },
+                          "elements": [],
+                          "isInner": false,
+                          "widgetType": "heading",
+                          "elType": "widget"
+                        }
+                      ],
+                      "isInner": true,
+                      "elType": "container"
+                    }
+                  ],
+                  "isInner": true,
+                  "elType": "container"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_sp_gallery_col",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 52 },
+                "width_tablet": { "unit": "%", "size": 48 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "background_background": "classic",
+                "background_color": "#FFF9F3",
+                "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "padding": { "unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": true },
+                "css_classes": "furnova-vertical-gallery"
+              },
+              "elements": [
+                {
+                  "id": "frn_sp_images",
+                  "settings": {
+                    "image_border_radius": { "unit": "px", "top": "22", "right": "22", "bottom": "22", "left": "22", "isLinked": true },
+                    "thumbs_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true },
+                    "spacing_thumbs": { "unit": "px", "size": 10 }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "woocommerce-product-images",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "frn_sp_tabs_and_banner",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "stretch",
+            "flex_gap": { "unit": "px", "size": 30 }
+          },
+          "elements": [
+            {
+              "id": "frn_sp_tabs_col",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 58 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "background_background": "classic",
+                "background_color": "#FFF9F3",
+                "border_radius": { "unit": "px", "top": "26", "right": "26", "bottom": "26", "left": "26", "isLinked": true },
+                "padding": { "unit": "px", "top": "26", "right": "28", "bottom": "26", "left": "28", "isLinked": false },
+                "css_classes": "furnova-product-tabs"
+              },
+              "elements": [
+                {
+                  "id": "frn_sp_data_tabs",
+                  "settings": { "tab_text_color": "#744329", "active_tab_text_color": "#F47721", "tab_border_color": "#E8D5C3", "content_text_color": "#29221E" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "woocommerce-product-data-tabs",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_sp_promo_col",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 40 },
+                "width_mobile": { "unit": "%", "size": 100 },
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "flex-start",
+                "flex_gap": { "unit": "px", "size": 14 },
+                "background_background": "classic",
+                "background_color": "#E8D5C3",
+                "border_radius": { "unit": "px", "top": "26", "right": "26", "bottom": "26", "left": "26", "isLinked": true },
+                "padding": { "unit": "px", "top": "32", "right": "32", "bottom": "32", "left": "32", "isLinked": true }
+              },
+              "elements": [
+                {
+                  "id": "frn_sp_promo_h",
+                  "settings": { "title": "انتخابی هوشمندانه\nبرای خانه‌های خاص", "header_size": "h3", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 24 }, "typography_font_weight": "800" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_sp_promo_p",
+                  "settings": { "editor": "<p>امکان سفارشی‌سازی رنگ پارچه، جنس چوب پایه و ابعاد متناسب با فضای منزل شما توسط طراحان فرنووا.</p>", "text_color": "#744329" },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_sp_promo_btn",
+                  "settings": {
+                    "text": "مشاهده سایر محصولات",
+                    "link": { "url": "/shop/" },
+                    "selected_icon": { "value": "fas fa-arrow-left", "library": "fa-solid" },
+                    "icon_align": "right",
+                    "css_classes": "furnova-pill-btn"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "button",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        },
+        {
+          "id": "frn_sp_related_wrap",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": { "unit": "px", "size": 24 },
+            "padding": { "unit": "px", "top": "20", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "frn_sp_rel_title",
+              "settings": { "title": "محصولات مشابه در فرنووا", "header_size": "h3", "title_color": "#29221E", "typography_typography": "custom", "typography_font_size": { "unit": "px", "size": 26 }, "typography_font_weight": "800" },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_sp_rel_grid",
+              "settings": {
+                "columns": "4",
+                "columns_tablet": "2",
+                "columns_mobile": "1",
+                "posts_per_page": 4,
+                "post_type": "related",
+                "column_gap": { "unit": "px", "size": 20 },
+                "row_gap": { "unit": "px", "size": 20 }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "loop-grid",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Furnova-Single-Product",
+  "type": "product"
+}

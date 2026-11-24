@@ -1,0 +1,26 @@
+{
+  "content": [
+    {
+      "id": "frn_footer_outer",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "background_background": "classic",
+        "background_color": "#F8EFE7",
+        "padding": { "unit": "px", "top": "60", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "frn_newsletter_box",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_color": "#F47721",
+            "border_radius": { "unit": "px", "top": "32", "right": "32", "bottom": "32", "left": "32", "isLinked": true },
+            "padding": { "unit": "px", "top": "36", "right": "44", "bottom": "36", "left": "44", "isLinked": false },
+            "margin": { "unit": "px",

@@ -1,0 +1,380 @@
+{
+  "content": [
+    {
+      "id": "frn_hero_wrapper",
+      "settings": {
+        "content_width": "full",
+        "min_height": { "unit": "vh", "size": 82 },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "flex-start",
+        "background_background": "classic",
+        "background_color": "#E8D5C3",
+        "background_position": "center left",
+        "background_size": "cover",
+        "padding": { "unit": "px", "top": "80", "right": "6%", "bottom": "120", "left": "6%", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "frn_hero_content_col",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 560 },
+            "flex_direction": "column",
+            "flex_align_items": "flex-start",
+            "flex_gap": { "unit": "px", "size": 20 }
+          },
+          "elements": [
+            {
+              "id": "frn_hero_h1",
+              "settings": {
+                "title": "زندگی لوکس را\nبا فرنووا تجربه کنید...",
+                "header_size": "h1",
+                "title_color": "#29221E",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_size_mobile": { "unit": "px", "size": 30 },
+                "typography_font_weight": "800",
+                "typography_line_height": { "unit": "em", "size": 1.35 }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_hero_sub",
+              "settings": {
+                "editor": "<p>مبلمان خاص، برای خانه‌های خاص؛ ترکیبی از معماری مدرن و آرامش بی‌انتها</p>",
+                "text_color": "#744329",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "500"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            },
+            {
+              "id": "frn_hero_cta",
+              "settings": {
+                "text": "مشاهده محصولات",
+                "link": { "url": "/shop/" },
+                "selected_icon": { "value": "fas fa-arrow-left", "library": "fa-solid" },
+                "icon_align": "right",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_font_weight": "600",
+                "css_classes": "furnova-pill-btn"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "button",
+              "elType": "widget"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    },
+    {
+      "id": "frn_cat_bar_section",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1240 },
+        "margin": { "unit": "px", "top": "-65", "right": "0", "bottom": "40", "left": "0", "isLinked": false },
+        "padding": { "unit": "px", "top": "0", "right": "16", "bottom": "0", "left": "16", "isLinked": false },
+        "z_index": 10
+      },
+      "elements": [
+        {
+          "id": "frn_cat_bar_inner",
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "space-between",
+            "flex_gap": { "unit": "px", "size": 14 },
+            "background_background": "classic",
+            "background_color": "#FFF9F3",
+            "border_radius": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": { "horizontal": 0, "vertical": 15, "blur": 35, "spread": -10, "color": "rgba(41, 34, 30, 0.08)" },
+            "padding": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true }
+          },
+          "elements": [
+            {
+              "id": "frn_cat_1",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 15.5 },
+                "width_tablet": { "unit": "%", "size": 31 },
+                "width_mobile": { "unit": "%", "size": 47 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "css_classes": "furnova-cat-card active"
+              },
+              "elements": [
+                {
+                  "id": "frn_cat_1_img",
+                  "settings": {
+                    "image": { "url": "https://via.placeholder.com/160x110/F8EFE7/29221E?text=Sofa", "id": "" },
+                    "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_cat_1_txt",
+                  "settings": {
+                    "title": "مبل راحتی",
+                    "header_size": "h4",
+                    "title_color": "#29221E",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_cat_2",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 15.5 },
+                "width_tablet": { "unit": "%", "size": 31 },
+                "width_mobile": { "unit": "%", "size": 47 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "css_classes": "furnova-cat-card"
+              },
+              "elements": [
+                {
+                  "id": "frn_cat_2_img",
+                  "settings": {
+                    "image": { "url": "https://via.placeholder.com/160x110/F8EFE7/29221E?text=Classic", "id": "" },
+                    "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_cat_2_txt",
+                  "settings": {
+                    "title": "مبل کلاسیک",
+                    "header_size": "h4",
+                    "title_color": "#29221E",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_cat_3",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 15.5 },
+                "width_tablet": { "unit": "%", "size": 31 },
+                "width_mobile": { "unit": "%", "size": 47 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "css_classes": "furnova-cat-card"
+              },
+              "elements": [
+                {
+                  "id": "frn_cat_3_img",
+                  "settings": {
+                    "image": { "url": "https://via.placeholder.com/160x110/F8EFE7/29221E?text=Modern", "id": "" },
+                    "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_cat_3_txt",
+                  "settings": {
+                    "title": "مبل مدرن",
+                    "header_size": "h4",
+                    "title_color": "#29221E",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_cat_4",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 15.5 },
+                "width_tablet": { "unit": "%", "size": 31 },
+                "width_mobile": { "unit": "%", "size": 47 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "css_classes": "furnova-cat-card"
+              },
+              "elements": [
+                {
+                  "id": "frn_cat_4_img",
+                  "settings": {
+                    "image": { "url": "https://via.placeholder.com/160x110/F8EFE7/29221E?text=Chair", "id": "" },
+                    "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_cat_4_txt",
+                  "settings": {
+                    "title": "صندلی و کاناپه",
+                    "header_size": "h4",
+                    "title_color": "#29221E",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_cat_5",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 15.5 },
+                "width_tablet": { "unit": "%", "size": 31 },
+                "width_mobile": { "unit": "%", "size": 47 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "css_classes": "furnova-cat-card"
+              },
+              "elements": [
+                {
+                  "id": "frn_cat_5_img",
+                  "settings": {
+                    "image": { "url": "https://via.placeholder.com/160x110/F8EFE7/29221E?text=Dining", "id": "" },
+                    "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_cat_5_txt",
+                  "settings": {
+                    "title": "میز ناهارخوری",
+                    "header_size": "h4",
+                    "title_color": "#29221E",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            },
+            {
+              "id": "frn_cat_6",
+              "settings": {
+                "content_width": "full",
+                "width": { "unit": "%", "size": 15.5 },
+                "width_tablet": { "unit": "%", "size": 31 },
+                "width_mobile": { "unit": "%", "size": 47 },
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "css_classes": "furnova-cat-card"
+              },
+              "elements": [
+                {
+                  "id": "frn_cat_6_img",
+                  "settings": {
+                    "image": { "url": "https://via.placeholder.com/160x110/F8EFE7/29221E?text=Bed", "id": "" },
+                    "image_border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true }
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                },
+                {
+                  "id": "frn_cat_6_txt",
+                  "settings": {
+                    "title": "تخت و خواب",
+                    "header_size": "h4",
+                    "title_color": "#29221E",
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": true,
+          "elType": "container"
+        }
+      ],
+      "isInner": false,
+      "elType": "container"
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Furnova-Home-Hero-Categories",
+  "type": "section"
+}
